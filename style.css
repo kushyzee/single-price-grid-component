@@ -40,7 +40,7 @@ h1 {
    color: rgb(192,223,52);
 }
 
-.intro-card p {
+.intro-card p:nth-of-type(2) {
    line-height: 1.7;
    color: rgb(152,166,189);
 }
@@ -58,9 +58,9 @@ h2 {
    color: #fff;
 }
 
-.signup-card>p:nth-of-type(2) {
+.signup-card>p:nth-of-type(1) {
    margin-bottom: 1rem;
-   color:/* rgb(229,239,245)* / #fff;
+   color: rgb(229,239,245);
 }
 
 span {
@@ -75,7 +75,7 @@ span {
    background-color: rgb(192,223,52);
    padding: 1.5rem 0;
    display: block;
-   margin-top: 3.2rem;
+   margin-top: 3.5rem;
    border-radius: 0.5rem;
    text-align: center;
    color: rgb(229,239,245);
